@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(22, 129, 67);
+
+}
+
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho h1 {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+.cabecalho nav {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.cabecalho a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 20px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    background-color: rgb(141, 18, 18);
+}
+
+.formulario {
+    background-color: rgb(255, 0, 191);
+}
