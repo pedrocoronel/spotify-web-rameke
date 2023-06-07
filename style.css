@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: rgb(22, 129, 67);
+    background-color: rgb(34, 206, 94);
 }
 
 .cabecalho {
@@ -12,9 +12,24 @@ body {
     justify-content: space-between;
 }
 
-.cabecalho h1 {
-    color: rgb(255, 255, 255);
+.cabecalho div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 20px;
+}
+
+.cabecalho img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 4%;
+}
+
+.cabecalho h2 {
+    color: rgb(255, 255, 255);
+    margin: 5px;
 }
 
 .cabecalho nav {
@@ -35,7 +50,7 @@ body {
 }
 
 .cabecalho a:hover {
-    color: rgb(22, 129, 67);
+    color: rgb(34, 206, 94);
 }
 
 .conteudo {
@@ -46,11 +61,23 @@ body {
 
 .principal {
     display: flex;
+    margin: 10%;
     flex-direction: column;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.principal h1 {
+    margin: 0px 0px 20px;
+}
+
+.principal div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .principal button {
+    margin: 20px 0px;
     padding: 8px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -60,7 +87,7 @@ body {
 
 .principal button:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(22, 129, 67);
+    background-color: rgb(255, 255, 255);
 }
 
 .principal a {
