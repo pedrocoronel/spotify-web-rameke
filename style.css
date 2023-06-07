@@ -12,14 +12,14 @@ body {
     justify-content: space-between;
 }
 
-.cabecalho div {
+.cabecalho-titulo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 20px;
 }
 
-.cabecalho img {
+.titulo-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,29 +27,29 @@ body {
     width: 4%;
 }
 
-.cabecalho h2 {
+.titulo-texto {
     color: rgb(255, 255, 255);
     margin: 5px;
 }
 
-.cabecalho nav {
+.cabecalho-nav {
     display: flex;
     align-items: center;
 }
 
-.cabecalho ul {
+.nav-lista {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
-.cabecalho a {
+.nav-texto {
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: 20px;
 }
 
-.cabecalho a:hover {
+.nav-texto:hover {
     color: rgb(34, 206, 94);
 }
 
@@ -66,23 +66,25 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.principal h1 {
+.principal-titulo {
     margin: 0px 0px 20px;
 }
 
-.principal div {
+.principal-btn {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .principal button {
-    margin: 20px 0px;
     padding: 8px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
+}
+
+.btn-direita {
+    margin: 20px;
 }
 
 .principal button:hover {
