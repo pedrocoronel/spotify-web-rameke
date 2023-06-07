@@ -3,7 +3,9 @@
 }
 
 body {
-    background-color: rgb(34, 206, 94);
+    background-image: url(./img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
 .cabecalho {
@@ -30,6 +32,7 @@ body {
 .titulo-texto {
     color: rgb(255, 255, 255);
     margin: 2px;
+    cursor: pointer;
 }
 
 .cabecalho-nav {
@@ -50,10 +53,6 @@ body {
     margin: 20px;
 }
 
-.nav-texto:hover {
-    color: rgb(34, 206, 94);
-}
-
 .conteudo {
     display: flex;
     justify-content: space-between;
@@ -64,11 +63,12 @@ body {
     display: flex;
     margin: 7% 10%;
     flex-direction: column;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .principal-titulo {
     margin: 0px 0px 20px;
+    font-size: xx-large;
 }
 
 .principal-btn {
@@ -76,9 +76,13 @@ body {
     align-items: center;
 }
 
+.principal-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .conteudo-principal button {
     padding: 8px;
-    color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
@@ -88,12 +92,13 @@ body {
     margin: 20px;
 }
 
-.conteudo-principal button:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+.principal-subtitulo {
+    font-size: x-small;
+    display: flex;
+    align-items: start;
 }
 
-.principal-subtitulo {
+.principal-subtitulo a {
     color: rgb(255, 255, 255);
 }
 
@@ -131,4 +136,122 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0px 0px 10px;
+}
+
+.secundario-formulario input {
+    margin: 0px 0px 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(19, 18, 18);
+    color: rgb(255, 255, 255);
+    caret-color: rgb(255, 255, 255);
+}
+
+.secundario-lembrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 10px;
+}
+
+.lembrar-texto {
+    font-size: small;
+}
+
+.lembrarBtn {
+    width: 30px;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 35px;
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+}
+
+.lembrarBtn.active {
+    background-color: rgb(34, 206, 94);
+}
+
+.lembrarBtn::before {
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+}
+
+.lembrarBtn.active::before {
+    left: 50%;
+}
+
+.secundario-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secundario-box hr {
+    width: 100px;
+}
+
+.box-titulo {
+    margin: 5px;
+}
+
+.secundario-btn-login {
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.secundario-btn-login a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.secundario-btn-facebook {
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(31, 81, 189, 0.884);
+}
+
+.secundario-btn-facebook a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.secundario-penultimo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    margin: 10px;
+}
+
+.secundario-penultimo a {
+    color: rgb(255, 255, 255);
+    margin: 0px 5px;
+}
+
+.secundario-ultimo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    margin: 4px;
+}
+
+.secundario-ultimo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px 5px;
 }

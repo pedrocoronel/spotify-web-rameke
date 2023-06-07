@@ -13,7 +13,7 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho-titulo">
-            <img class="titulo-logo" src="./img/spotify-verde.png" alt="icone do spotify">
+            <img class="titulo-logo" src="./img/spotify-branco.png" alt="icone do spotify">
             <h2 class="titulo-texto">Spotify</h2>
         </div>
         <nav class="cabecalho-nav">
@@ -25,25 +25,26 @@
             </ul>
         </nav>
     </header>
-
     <main class="conteudo">
         <section class="conteudo-principal">
             <h1 class="principal-titulo"><strong>Curtição sem limites</strong></h1>
-            <p class="principal-paragrafo">O Spotify é a escolha ideal para os amantes da música <br>
-                que buscam uma experiência excepcional. Com uma vasta <br>
-                biblioteca musical, recursos personalizados e benefícios <br>
-                do Spotify Premium, você pode desfrutar de uma curtição <br>
-                sem limites. Descubra novas músicas, ouça sem anúncios, <br>
-                reproduza offline e desfrute de uma qualidade de áudio <br>
-                aprimorada. O Spotify é o parceiro perfeito para uma <br>
-                experiência musical incomparável.</p>
-            <div class="principal-btn">
-                <button class="btn-esquerda"><strong>Comece Agora</strong></button>
-                <button class="btn-direita"><strong>Ver Planos</strong></button>
-            </div>
-            <a class="principal-subtitulo" href="">Sujeito a Termos e Condições.</a>
-        </section>
+            <p class="principal-paragrafo"><strong>O Spotify é a escolha ideal para os amantes da música <br>
+                    que buscam uma experiência excepcional. Com uma vasta <br>
+                    biblioteca musical, recursos personalizados e benefícios <br>
+                    do Spotify Premium, você pode desfrutar de uma curtição <br>
+                    sem limites. Descubra novas músicas, ouça sem anúncios, <br>
+                    reproduza offline e desfrute de uma qualidade de áudio <br>
+                    aprimorada. O Spotify é o parceiro perfeito para uma <br>
+                    experiência musical incomparável.</strong></p>
 
+            <div class="principal-btn">
+                <button class="btn-esquerda"><a href="">Comece Agora</a></button>
+                <button class="btn-direita"><a href="">Ver Planos</a></button>
+            </div>
+            <div class="principal-subtitulo">
+                <a href="">Sujeito a Termos e Condições.</a>
+            </div>
+        </section>
         <section class="conteudo-secundario">
             <form class="secundario-formulario">
                 <div class="formulario-titulo">
@@ -53,17 +54,22 @@
                 <h2 class="secundario-subtitulo"><strong>Musica para todos</strong></h2>
                 <input type="text" name="usuario" placeholder="Email ou Usuário">
                 <input type="password" name="senha" placeholder="Senha">
-                <div>
-                    <p>Lembrar de mim</p>
-                    <button></button>
+                <div class="secundario-lembrar" id="container">
+                    <p class="lembrar-texto">Lembrar de mim</p>
+                    <div class="lembrarBtn"></div>
                 </div>
-                <button>Entrar</button>
-                <hr class="">
-                <span>ou</span>
-                <hr class="">
-                <button>Entrar com Facebook</button>
-                <p>Não tem conta? <a href="">Cadastrar</a></p>
-                <div>
+                <button class="secundario-btn-login"><a href=""><b>Entrar</b></a></button>
+                <div class="secundario-box">
+                    <hr>
+                    <p class="box-titulo">ou</p>
+                    <hr>
+                </div>
+                <button class="secundario-btn-facebook"><a href=""><b>Entrar com Facebook</b></a></button>
+                <div class="secundario-penultimo">
+                    <p>NÃO TEM CONTA?</p>
+                    <a href="">CADASTRAR</a>
+                </div>
+                <div class="secundario-ultimo">
                     <p><a href="">Esqueci a senha</a></p>
                     <p><a href="">Configurações</a></p>
                 </div>
@@ -71,5 +77,6 @@
         </section>
     </main>
 </body>
+<script src="main.js"></script>
 
 </html>
