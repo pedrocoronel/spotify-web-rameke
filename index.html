@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="spotify-logo.png">
+    <link rel="icon" href="./img/spotify-verde.png">
     <link rel="stylesheet" href="style.css">
     <title>Spotify – Web player: música para todas as pessoas</title>
 </head>
@@ -13,7 +13,7 @@
 <body>
     <header class="cabecalho">
         <div class="cabecalho-titulo">
-            <img class="titulo-logo" src="./img/spotify-logo.png" alt="icone do spotify">
+            <img class="titulo-logo" src="./img/spotify-verde.png" alt="icone do spotify">
             <h2 class="titulo-texto">Spotify</h2>
         </div>
         <nav class="cabecalho-nav">
@@ -27,8 +27,7 @@
     </header>
 
     <main class="conteudo">
-        <section class="principal">
-
+        <section class="conteudo-principal">
             <h1 class="principal-titulo"><strong>Curtição sem limites</strong></h1>
             <p class="principal-paragrafo">O Spotify é a escolha ideal para os amantes da música <br>
                 que buscam uma experiência excepcional. Com uma vasta <br>
@@ -42,17 +41,32 @@
                 <button class="btn-esquerda"><strong>Comece Agora</strong></button>
                 <button class="btn-direita"><strong>Ver Planos</strong></button>
             </div>
-            <a href="">Sujeito a Termos e Condições.</a>
+            <a class="principal-subtitulo" href="">Sujeito a Termos e Condições.</a>
         </section>
 
-        <section class="formulario">
-            <form>
-                <label for="">Digite seu Usuário:</label>
-                <input type="text" name="usuario" placeholder="Usuário">
-                <br>
-                <label for="">Digite seu Senha:</label>
+        <section class="conteudo-secundario">
+            <form class="secundario-formulario">
+                <div class="formulario-titulo">
+                    <img class="titulo2-logo" src="./img/spotify-branco.png" alt="">
+                    <h3 class="titulo2-texto">Spotify</h3>
+                </div>
+                <h2 class="secundario-subtitulo"><strong>Musica para todos</strong></h2>
+                <input type="text" name="usuario" placeholder="Email ou Usuário">
                 <input type="password" name="senha" placeholder="Senha">
+                <div>
+                    <p>Lembrar de mim</p>
+                    <button></button>
+                </div>
                 <button>Entrar</button>
+                <hr class="">
+                <span>ou</span>
+                <hr class="">
+                <button>Entrar com Facebook</button>
+                <p>Não tem conta? <a href="">Cadastrar</a></p>
+                <div>
+                    <p><a href="">Esqueci a senha</a></p>
+                    <p><a href="">Configurações</a></p>
+                </div>
             </form>
         </section>
     </main>

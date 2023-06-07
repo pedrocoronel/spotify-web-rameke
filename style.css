@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 20px;
+    margin: 20px 5%;
 }
 
 .titulo-logo {
@@ -29,12 +29,13 @@ body {
 
 .titulo-texto {
     color: rgb(255, 255, 255);
-    margin: 5px;
+    margin: 2px;
 }
 
 .cabecalho-nav {
     display: flex;
     align-items: center;
+    margin: 20px 5%;
 }
 
 .nav-lista {
@@ -59,9 +60,9 @@ body {
     align-items: center;
 }
 
-.principal {
+.conteudo-principal {
     display: flex;
-    margin: 10%;
+    margin: 7% 10%;
     flex-direction: column;
     color: rgb(0, 0, 0);
 }
@@ -75,7 +76,7 @@ body {
     align-items: center;
 }
 
-.principal button {
+.conteudo-principal button {
     padding: 8px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -87,16 +88,47 @@ body {
     margin: 20px;
 }
 
-.principal button:hover {
+.conteudo-principal button:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 
-.principal a {
+.principal-subtitulo {
     color: rgb(255, 255, 255);
 }
 
-.formulario form {
+.conteudo-secundario {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 7% 10%;
+    padding: 20px 40px;
+    border-radius: 5px;
+    width: 17%;
+}
+
+.secundario-formulario {
     display: flex;
     flex-direction: column;
+}
+
+.formulario-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo2-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 10%;
+    margin: 10px 2px;
+}
+
+.secundario-subtitulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 10px;
 }
