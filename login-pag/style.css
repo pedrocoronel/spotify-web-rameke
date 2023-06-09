@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(./img/bg.jpeg);
+    background-image: url(/img/bg-inicial.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -32,7 +32,6 @@ body {
 .titulo-texto {
     color: rgb(255, 255, 255);
     margin: 2px;
-    cursor: pointer;
 }
 
 .cabecalho-nav {
@@ -206,6 +205,7 @@ body {
 }
 
 .secundario-btn-login {
+    font-weight: bold;
     border: none;
     border-radius: 15px;
     padding: 8px;
@@ -217,6 +217,7 @@ body {
 }
 
 .secundario-btn-facebook {
+    font-weight: bold;
     border: none;
     border-radius: 15px;
     padding: 8px;
